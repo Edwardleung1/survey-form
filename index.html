@@ -36,8 +36,53 @@
                     <option value="other">Other</option>
                 </select>
             </div>
-
-            <button type="submit">Submit</button>
+            <div>
+                <span>Would you recommend freeCodeCamp to a friend?</span><br>
+                  <input type="radio" name="name" value="definitely">Definitely<br>
+                  <input type="radio" name="name" value="maybe">Maybe<br>
+                  <input type="radio" name="name" value="notsure">Not sure<br>
+            </div>
+            <div>
+                <label for="feature">What is your favourite feature of freeCodeCamp?</label><br>
+                <select name="feature" id="feature" required><br>
+                  <option value="" disabled selected hiddens>Select an option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Projects</option>
+                  <option value="community">Community</option>
+                  <option value="opensource">Open Source</option>
+                </select>
+            </div>
+            <div>
+                <span>What would you like to see improved? (Check all that apply)</span><br>
+                  <input type="checkbox" id="box1" name="box1" value="frontend">
+                  <label for="box1">Front-end Projects</label><br>
+                  <input type="checkbox" id="box2" name="box2" value="backend">
+                  <label for="box2">Back-end Projects</label><br>
+                  <input type="checkbox" id="box3" name="box3" value="datavisualization">
+                  <label for="box3">Data Visualization</label><br>
+                  <input type="checkbox" id="box4" name="box4" value="challenges">
+                  <label for="box4">Challenges</label><br>
+                  <input type="checkbox" id="box5" name="box5" value="opensourcecommunity">
+                  <label for="box5">Open Source Community</label><br>
+                  <input type="checkbox" id="box6" name="box6" value="gitterhelprooms">
+                  <label for="box6">Gitter help rooms</label><br>
+                  <input type="checkbox" id="box7" name="box7" value="videos">
+                  <label for="box7">Videos</label><br>
+                  <input type="checkbox" id="box8" name="box8" value="citymeetups">
+                  <label for="box8">City Meetups</label><br>
+                  <input type="checkbox" id="box9" name="box9" value="wiki">
+                  <label for="box9">Wiki</label><br>
+                  <input type="checkbox" id="box10" name="box10" value="forum">
+                  <label for="box10">Forum</label><br>
+                  <input type="checkbox" id="box11" name="box11" value="additionalcourses">
+                  <label for="box11">Additional Courses</label><br>
+            </div>
+            <div>
+                <span>Any comments or suggestions?</span><br>
+                <textarea rows="4" cols="50" name="comment" form="usrform">
+                Enter your comments here...</textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
         </form>
     </section>
 </body>
