@@ -16,7 +16,7 @@ form {
     grid-gap: 20px;
     margin: 0 auto;
     height: 0 auto;
-    max-width: 50%;
+    max-width: 55%;
     border: 5px solid black;
     background-color: blue;
     color: white;
@@ -43,18 +43,6 @@ input {
 button:hover {
     background-color: blue;
 }
-
-@media (min-width: 576px) {
-    .container {
-      max-width: 540px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
 
   fieldset {
       position: absolute;
